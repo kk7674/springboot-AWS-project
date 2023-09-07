@@ -42,7 +42,7 @@ dependencies {
 //    implementation 'com.mariadb.jdbc:mariadb-java-client'
     implementation 'mysql:mysql-connector-java'
     implementation 'org.springframework.boot:spring-boot-starter-mustache'
-
+    implementation 'org.springframework.session:spring-session-jdbc'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.springframework.security:spring-security-test'
 
