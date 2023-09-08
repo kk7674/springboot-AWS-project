@@ -22,7 +22,7 @@ public class IndexController {
         model.addAttribute("posts",postsService.findAllDesc());
         if (user != null){
             model.addAttribute("userName", user.getName());
-            System.out.println("유저 네임" + user.getName());
+            System.out.println("유저" + user + "유저 네임" + user.getName());
         }
         return "index"; // 경로 자동 지정 -> ~/index.mustache
     }
